@@ -1,0 +1,30 @@
+{
+  "states": [
+    "intent_affirm",
+    "intent_air_condition_request",
+    "intent_deny",
+    "intent_goodbye",
+    "intent_greet",
+    "intent_house_keeping_request",
+    "intent_mood_great",
+    "intent_mood_unhappy",
+    "intent_what_vhub",
+    "intent_why_vhub",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_action_deactivate_form",
+    "prev_action_revert_fallback_events",
+    "prev_action_default_ask_affirmation",
+    "prev_action_default_ask_rephrase",
+    "prev_utter_greet",
+    "prev_utter_did_that_help",
+    "prev_utter_happy",
+    "prev_utter_goodbye",
+    "prev_utter_welcome",
+    "prev_utter_why_vhub",
+    "prev_utter_what_vhub",
+    "prev_utter_air_request",
+    "prev_utter_house_request"
+  ]
+}
