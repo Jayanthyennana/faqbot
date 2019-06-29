@@ -1,0 +1,24 @@
+1)You need to have Microsoft Visual studio 2019 installed in your system.
+2)change your working directory to your current folder.
+3)create a virtual environment having python 3.6 version
+ --To do so:
+	2.1)Launch anaconda prompt and "conda create -n any_name python=3.6.3 anaconda".
+	2.2)conda activate any_name
+3)now run the following command
+	3.1)pip install tensorflow==0.12.0
+	3.2)pip install -r requirements.txt
+	3.3)pip install rasa_core==0.13.2
+	3.4)python -m spacy download en
+	3.5)python -m spacy download en_core_web_sm
+
+4)Open makefile using any editor(preferred Notepad++)
+5)Execute all these commands:
+	"python -m rasa_nlu.train -c nlu_tensorflow.yml --fixed_model_name current --data data/nlu/ -o models --project nlu --verbose".
+	"python -m rasa_core.train -d domain.yml -s data/core/stories.md -o models/dialogue".
+	"python -m rasa_core.run --enable_api -d models/dialogue -u models/nlu/current --debug --endpoints endpoints.yml --cors "*"".
+
+6) You'll see the following link in your terminal "http://localhost:5005" copy this in and open this in a new tab.
+7)If you get the folllowing message then it's working fine
+	"hello from Rasa Core: 0.13.2"
+8)now launch "index.html" file using Google Chrome.
+9)Now you can go on and have a converstion with the bot.
