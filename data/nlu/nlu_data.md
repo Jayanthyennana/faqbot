@@ -49,13 +49,6 @@
 - extremely sad
 - so sad
 
-## intent:why_vhub
-- why
-- vhub
-
-## intent:what_vhub
-- what
-- vhub
 
 ## intent:air_condition_request
 - cool
@@ -74,3 +67,35 @@
 - dirty
 - work station
 
+## intent:access_card_request
+- access card
+- damaged
+- loss
+- malfunction
+- damage
+- lost
+
+
+## intent:room_booking_request
+- book
+- request
+- room
+- meeting
+- conference
+
+## intent:room_booking_clarify_request
+- know
+- enquire
+- room
+- details
+
+## intent:Front_desk_request:
+- stationary
+- request
+- Lanyard
+- IT Gate Pass
+- Non-IT Gate Pass
+- One Day Car Pass
+- Permanent Vehicle Pass
+- Business card
+- need

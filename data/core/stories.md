@@ -12,8 +12,23 @@
 * house_keeping_request
   - utter_house_request
 * goodbye
-  - utter_goodbye  
-  
+  - utter_goodbye
+
+##  virtusa question path 2
+* access_card_request
+  - utter_access_card
+##  virtusa question path 2
+* room_booking_request
+  - utter_room_booking
+
+##  virtusa question path 2
+* room_booking_clarify_request
+  - utter_room_booking_clarify
+
+##  virtusa question path 2
+* Front_desk_request
+  - utter_Front_desk
+
 ## virtusa question path 3
 * greet
   - utter_greet
