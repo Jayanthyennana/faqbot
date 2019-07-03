@@ -13,6 +13,7 @@ intents:
   - room_booking_request
   - room_booking_clarify_request
   - Front_desk_request
+  
 
 actions:
 - utter_greet
@@ -51,13 +52,13 @@ templates:
   - text: "v Hub is a growing development platform inspired by an unique software development methodology of assembling solution asset and build solutions, solve complex use cases and challenges. You can now host your solutions, components and frameworks that can be leveraged by Virtusanâ€™s in their projects and solution development journeyâ€™s. So go ahead and start contributing your asset !"
   
   utter_air_request:
-  - text: "For Air Conditioning related issues please raise a ticket at click here https://virtusa.service-now.com/sp?id=sc_category&sys_id=c24ff37adb2f3a405eb551b0cf961902."
+  - text: "For Air Conditioning related issues please raise a ticket at <a href=/"https://virtusa.service-now.com/sp?id=sc_category&sys_id=c24ff37adb2f3a405eb551b0cf961902/">click here</a>."
   utter_house_request:
-  - text: "For House-Keeping related issues please raise a ticket at click here https://virtusa.service-now.com/sp?id=sc_category&sys_id=c24ff37adb2f3a405eb551b0cf961902."
+  - text: "For House-Keeping related issues please raise a ticket at <a href=/"https://virtusa.service-now.com/sp?id=sc_category&sys_id=c24ff37adb2f3a405eb551b0cf961902/">click here</a>"
   utter_access_card:
-  - text: "For reissue of access card please raise a ticket at https://virtusa.service-now.com/sp?id=sc_category&sys_id=c24ff37adb2f3a405eb551b0cf961902"
+  - text: "For reissue of access card please raise a ticket at <a href=/"https://virtusa.service-now.com/sp?id=sc_category&sys_id=c24ff37adb2f3a405eb551b0cf961902/">click here</a>"
   utter_room_booking:
-  - text: "For booking a room you need to raise a ticket at https://virtusa.service-now.com/sp?id=sc_category&sys_id=c24ff37adb2f3a405eb551b0cf961902"
+  - text: "For booking a room you need to raise a ticket at <a href=/"https://virtusa.service-now.com/sp?id=sc_category&sys_id=c24ff37adb2f3a405eb551b0cf961902/">click here</a>"
   utter_room_booking_clarify:
   - text: "We provide Meeting rooms which has a capacity of 8 & less and also Conference rooms which has a capacity of 9 & more."
   utter_Front_desk:
